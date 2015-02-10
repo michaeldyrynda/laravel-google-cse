@@ -16,9 +16,6 @@
         "guzzlehttp/guzzle": "~5.0"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Iatstuti\\GoogleCse\\": "src/"
         }
