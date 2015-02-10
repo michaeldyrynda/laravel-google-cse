@@ -1,0 +1,27 @@
+{
+    "name": "iatstuti/google-cse",
+    "description": "Google Custom Search Engine API wrapper",
+    "keywords": [ "laravel", "google", "cse", "custom search engine" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Dyrynda",
+            "email": "michael@iatstuti.net",
+            "homepage": "https://iatstuti.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Iatstuti\\GoogleCse\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
